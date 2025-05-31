@@ -10,6 +10,6 @@ const productSchema = new mongoose.Schema({
         type:ObjectId,
         ref:"User"
     }
-});
+    hellow  how
 
 module.exports = mongoose.model("Product",productSchema);

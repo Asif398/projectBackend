@@ -7,4 +7,6 @@ const userSchema = new mongoose.Schema({
     password:String
 });
 
+my name is asif raza
+
 module.exports = mongoose.model("User",userSchema);
